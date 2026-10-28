@@ -25,11 +25,13 @@ The cleaned dataset contains 160 records, including records with missing values.
 | Maximum Departmental Waiting Time Gap | 23.23 minutes |
 | Waiting Time Exceeding 120 Minutes | 31.89% (pending verification) |
 ## 5. Data Visualization
-## Average Waiting Time by Department
+### Average Waiting Time by Department
+
 ![Average Waiting Time](waiting_time_by_department.png)
 
 The Emergency Department had the highest average waiting time, approximately 97.38 minutes, while Cardiology had the lowest, approximately 74.15 minutes.
-## Average Length of Stay by Department
+
+### Average Length of Stay by Department
 ![Average Length of Stay](length_of_stay_by_department.png)
 
 Cardiology showed the highest average length of stay, approximately 7.5 days. Differences between departments may reflect variations in patient complexity, clinical pathways, and resource utilization.
