@@ -26,8 +26,12 @@ The cleaned dataset contains 160 records, including records with missing values.
 | Waiting Time Exceeding 120 Minutes | 31.89% (pending verification) |
 ## 5. Data Visualization
 ## Average Waiting Time by Department
+![Average Waiting Time](waiting_time_by_department.png)
+
 The Emergency Department had the highest average waiting time, approximately 97.38 minutes, while Cardiology had the lowest, approximately 74.15 minutes.
 ## Average Length of Stay by Department
+![Average Length of Stay](length_of_stay_by_department.png)
+
 Cardiology showed the highest average length of stay, approximately 7.5 days. Differences between departments may reflect variations in patient complexity, clinical pathways, and resource utilization.
 ## 6. Operational Insights
 ### Finding 1: Departmental Waiting Time Variation
@@ -49,7 +53,7 @@ This project uses synthetic data for educational purposes and does not represent
 
 The dataset does not include patient severity, staffing levels, or detailed process timestamps. Therefore, the analysis identifies descriptive patterns rather than causal relationships.
 ## 9. Project Files
-- cleaned_hospital_data.ipynb — Python analysis notebook
+- hospital_data_analysis.ipynb — Python analysis notebook
 - cleaned_hospital_data.csv — Cleaned dataset
 - synthetic_hospital_data.csv — Original synthetic dataset
 - waiting_time_by_department.png — Waiting-time visualization
